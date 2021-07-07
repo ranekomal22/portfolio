@@ -30,7 +30,8 @@ const About = () => {
                 While working with Air Canada and their clients, my goal has always been to thrive for delivering best quality software and best user experience.
                 <br />
                 <br />
-                I love learning new technologies, learning more about the problems are they are solving and How can I use them to build better products with faster deliveries.
+                I love learning new technologies and understand the problems that they solve.
+                I am always curious to find out how can I leverage that to develop quality products with faster deliveries.
                 <br /> <br />
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
