@@ -11,7 +11,7 @@ const MyTitleMessage = styled.h1`
   text-align: center;
 
   strong {
-    font-size: 1.25em;
+    font-size: 1.5em;
   }
   div {
     color: ${props => props.theme.textColor};
@@ -21,11 +21,11 @@ const MyTitleMessage = styled.h1`
     letter-spacing: 7px;
 
     .main {
-      font-size: 50px;
+      font-size: 60px;
     }
 
     .sub {
-      font-size: 27px;
+      font-size: 40px;
       letter-spacing: 2px;
     }
   }
@@ -45,7 +45,8 @@ const TitleMessage = () => (
         <div className="sub">
           <Typewriter
             options={{
-              strings: ["Javascript", "CSS", "HTML5","nodejs","bootstrap","webdriverio"],
+              strings: ["Test Automation", "API Testing",
+              "Manual Testing", "Mobile Testing", "Continuous Integration", "Scrum Methodology"],
               autoStart: true,
               loop: true,
               delay: 40

@@ -22,13 +22,15 @@ const About = () => {
             <Col xs={12} md={6}>
               <Row className=" align-items-start p-2 my-details rounded">
                 Hello! I am <strong>&nbsp;Komal Rane</strong>
-                <br />I am recent graduate with master’s degree in Information Systems from City University of New York Brooklyn College.
+                <br />I have recently graduated with Master’s degree in Information Systems from City University of New York Brooklyn College.
                 <br />
-                I have two years professional experience in Air Canada Airline Project as quality assuarance in which I performed automation as well as manual testing for web and mobile application.
                 <br />
-                Working with the clients, my goal is always driven towards providing amazing experience with the best level of quality and service to them.
+                I have two years of professional work experience as a Test Engineer in Hexaware Technologies and I worked on Air Canada Airline project during that tenure.
+                My primary responsibilities were to develop Test Strategies, Test Cases, write Automated Test scripts and perform mobile application testing.
+                While working with Air Canada and their clients, my goal has always been to thrive for delivering best quality software and best user experience.
                 <br />
-                I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable products.
+                <br />
+                I love learning new technologies, learning more about the problems are they are solving and How can I use them to build better products with faster deliveries.
                 <br /> <br />
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
