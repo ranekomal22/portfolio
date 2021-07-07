@@ -22,12 +22,13 @@ const MyNavbar = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto ">
-              <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#about">About</Nav.Link>
-              <Nav.Link href="#skills">Skills</Nav.Link>
-              <Nav.Link href="#experience">Experience</Nav.Link>
-              <Nav.Link href="#projects">Projects</Nav.Link>
-              <Nav.Link href="#contact">Contact</Nav.Link>
+              <Nav.Link id="nav-home" href="#home">Home</Nav.Link>
+              <Nav.Link id="nav-about" href="#about">About</Nav.Link>
+              <Nav.Link id="nav-skills" href="#skills">Skills</Nav.Link>
+              <Nav.Link id="nav-experience" href="#experience">Experience</Nav.Link>
+              <Nav.Link id="nav-education" href="#education">Education</Nav.Link>
+              <Nav.Link id="nav-projects" href="#projects">Projects</Nav.Link>
+              <Nav.Link id="nav-contact" href="#contact">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </div>

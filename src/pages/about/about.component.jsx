@@ -16,7 +16,7 @@ const About = () => {
           <Row className="pt-3 pb-5 align-items-center">
             <Col xs={12} md={6}>
               <Row className="justify-content-center mb-2 mr-2 ">
-                <Image className="profile justify-content-end" alt="profile" src={Profile} thumbnail fluid />
+                <Image id="profile-img" className="profile justify-content-end" alt="profile" src={Profile} thumbnail fluid />
               </Row>
             </Col>
             <Col xs={12} md={6}>
@@ -36,28 +36,28 @@ const About = () => {
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
                     <a href="#contact">
-                      <Button className="m-2" variant="outline-primary">
+                      <Button id="btn-lets-talk" className="m-2" variant="outline-primary">
                         Let's talk
                       </Button>
                     </a>
                   </div>
                   <div>
                     <a href="https://drive.google.com/file/d/1N7S0sVATKB2-4yLfU9rUKIjEri2LWPc5/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-                      <Button className="m-2" variant="outline-success">
+                      <Button id="btn-resume" className="m-2" variant="outline-success">
                         My Resume
                       </Button>
                     </a>
                   </div>
                   <div>
                     <a href="https://github.com/ranekomal22" target="_blank" rel="noopener noreferrer">
-                      <Button className="m-2" variant="outline-dark">
+                      <Button id="about-github" className="m-2" variant="outline-dark">
                         GitHub
                       </Button>
                     </a>
                   </div>
                   <div>
                     <a href="https://www.linkedin.com/in/komal-rane-3b0b22171/" target="_blank" rel="noopener noreferrer">
-                      <Button className="m-2" variant="outline-info">
+                      <Button id="about-linkedin" className="m-2" variant="outline-info">
                         LinkedIn
                       </Button>
                     </a>
