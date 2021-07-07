@@ -105,7 +105,7 @@ const TimeLine = () => {
 
 {/* Project: WebDriverIO with Cucumber */}
 <ImageEvent
-            date="16/09/2020"
+            date="09/16/2020"
             className="text-center"
             text="Automated tests with WebDriverIO and Cucumber"
             src={L_WebDriverIO}
@@ -181,7 +181,7 @@ const TimeLine = () => {
 
           {/* Project: Portfolio */}
           <ImageEvent
-            date="07/12/2019"
+            date="07/12/2020"
             className="text-center"
             text="Portfolio"
             src={L_Portfolio}
