@@ -2,9 +2,9 @@ import React from "react";
 import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
 
 // projects
-import L_ReactTipCalculator from "../../assets/img/projects/React_TipCalculator.webp";
-import L_WebDriverIO from "../../assets/img/projects/WebDriverIO.webp";
-import L_Portfolio from "../../assets/img/projects/Portfolio.webp";
+import L_ReactTipCalculator from "../../assets/img/projects/reactTipCalculator.webp";
+import L_WebDriverIO from "../../assets/img/projects/webDriverIO.webp";
+import L_Portfolio from "../../assets/img/projects/portfolio1.png";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 
@@ -52,28 +52,26 @@ const TimeLine = () => {
                         <ul className="list-styles pt-1">
                           <li>Takes in the desired tip percentage</li>
                           <li>Includes the option to split the tip amount by number of people at the table</li>
-                          <li>GitHub is used for version control and Netlify hosting platform for hosting the webapp</li>
+                          <li>GitHub is used for version control</li>
                           <li>Project is hosted on Netlify hosting platform and it is configured for continuous deliveries</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
                         <ul>
-                          
                           <li>
                             <span className="p-2">
-                              <Image
-                                src={L_REACT}
-                                alt="React"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              React
+                              React JS
                             </span>
                           </li>
                           <li>
-                              <span className="p-2">
-                                Netlify
-                              </span>
+                            <span className="p-2">
+                              Bootstrap
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              Hosting platform: Netlify
+                            </span>
                           </li>
                         </ul>
                       </Card.Body>
@@ -127,16 +125,16 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This is an UI Automation Tests project of testing purchase workflow against http://automationpractice.com.
-                                These tests are developed in JS with WebDriverIO and Cucumber
+                        <strong>Description:</strong> This is an UI Automation Test framework that is capable of behavioral testing using web browsers.
+                        It written to test workflows on http://automationpractice.com. These tests are developed in Javascript with WebDriverIO and Cucumber.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>It gives us a base foundation framework for writing and executing BDD tests in any environment that has NodeJS, NPM and chrome browser.
-                          It start the Selenium2-Server-Standalone service and performs Browser actions.</li>
+                          <li>It gives us a base foundation framework for writing and executing BDD tests in any environment </li>
+                          <li>It start the Selenium2-Server-Standalone service and performs Browser actions</li>
                           <li> Report can be generated after tests completion so that results can be presented nicely.
-                          Allure report has been used for reporting in it.</li>
-                          
+                              Allure report has been used for reporting</li>
+                          <li>Host Machine Requirements: NodeJS, NPM and chrome browser</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -144,12 +142,6 @@ const TimeLine = () => {
                           
                           <li>
                             <span className="p-2">
-                              <Image
-                                src={L_NODE_JS}
-                                alt="Node.js"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
                               Node.js
                             </span>
                           </li>
@@ -224,34 +216,16 @@ const TimeLine = () => {
                         <ul>
                           <li>
                             <span className="p-2">
-                              <Image
-                                src={L_HTML5}
-                                alt="HTML 5"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
                               HTML5
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
-                              <Image
-                                src={L_CSS3}
-                                alt="CSS 3"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
                               CSS3
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
-                              <Image
-                                src={L_BOOTSTRAP4}
-                                alt="Bootstrap 4"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
                               Bootstrap 4
                             </span>
                           </li> 
@@ -261,24 +235,12 @@ const TimeLine = () => {
                   </Card>
                 </Accordion>
               </div>
-              <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton
-                  href="https://kr-tipcalculator-a8969f.netlify.app/"
-                  target="_blank"
-                >
-                  SEE LIVE
-                </UrlButton>
+              <div className="d-flex justify-content-center flex-nowrap text-center">
                 <UrlButton
                   href="https://github.com/ranekomal22/portfolio"
                   target="_blank"
                 >
                   SOURCE CODE
-                </UrlButton>
-                <UrlButton
-                  href="https://drive.google.com/file/d/14mDuZ6SIEOC0X8m73-rFI2GZlkYkbiq3/view?usp=sharing"
-                  target="_blank"
-                >
-                  WATCH VIDEO
                 </UrlButton>
               </div>
             </div>

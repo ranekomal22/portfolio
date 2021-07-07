@@ -10,14 +10,14 @@ import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
 import L_MAVEN from "../../assets/img/skills/maven.svg";
 import L_POSTMAN from "../../assets/img/skills/postman.svg";
 import L_SELENIUM from "../../assets/img/skills/selenium.svg";
-import L_WebdriverIO from "../../assets/img/skills/WebdriverIO.svg";
+import L_WEBDRIVERIO from "../../assets/img/skills/webdriverIO.svg";
 import L_JAVA from "../../assets/img/skills/java.svg";
-import L_CHAIJS from "../../assets/img/skills/chaiJS.svg";
+import L_CHAI from "../../assets/img/skills/chaiJS.svg";
 import L_CUCUMBER from "../../assets/img/skills/cucumber.svg";
 import L_JUNIT5 from "../../assets/img/skills/junit5.svg";
 import L_NPM from "../../assets/img/skills/npm.svg";
 import L_GITLAB from "../../assets/img/skills/gitlab.svg";
-import L_JENKINS from "../../assets/img/skills/jenkin.svg";
+import L_JENKINS from "../../assets/img/skills/jenkins.svg";
 import L_SWAGGER from "../../assets/img/skills/swagger.svg";
 import L_NETLIFY from "../../assets/img/skills/netlify.svg";
 import L_FIREBASE from "../../assets/img/skills/firebase.svg";
@@ -27,35 +27,30 @@ import L_MYSQL from "../../assets/img/skills/mysql.svg";
 export const skills = {
 
   frontend: [
-
     {
       link: "https://reactjs.org/",
       imgAltText: "React JS",
       imgSrc: L_REACT,
       skillName: "React JS",
     },
-    
     {
       link: "https://en.wikipedia.org/wiki/HTML5",
       imgAltText: "HTML 5",
       imgSrc: L_HTML5,
       skillName: "HTML5",
     },
-
     {
       link: "https://medium.com/beginners-guide-to-mobile-web-development/whats-new-in-css-3-dcd7fa6122e1",
       imgAltText: "CSS 3",
       imgSrc: L_CSS3,
       skillName: "CSS3",
-    }, 
-
+    },
     {
       link: "https://styled-components.com/",
       imgAltText: "styled-components",
       imgSrc: L_STYLED_COMPONENTS,
       skillName: "styled-components",
     },
-
     {
       link: "https://getbootstrap.com/",
       imgAltText: "Bootstrap",
@@ -65,42 +60,36 @@ export const skills = {
   ],
 
   automation: [
-
     {
       link: "https://webdriver.io/",
       imgAltText: "WebdriverIO",
-      imgSrc: L_WebdriverIO,
+      imgSrc: L_WEBDRIVERIO,
       skillName: "WebdriverIO",
     },
-
-    {
-      link: "https://www.chaijs.com/",
-      imgAltText: "ChaiJS",
-      imgSrc: L_CHAIJS,
-      skillName: "ChaiJS",
-    },
-
-    {
-      link: "https://www.selenium.dev/",
-      imgAltText: "Selenium",
-      imgSrc: L_SELENIUM,
-      skillName: "Selenium",
-    },
-
     {
       link: "https://cucumber.io/docs/installation/javascript/",
       imgAltText: "Cucumber",
       imgSrc: L_CUCUMBER,
       skillName: "Cucumber",
     },
-
+    {
+      link: "https://www.selenium.dev/",
+      imgAltText: "Selenium",
+      imgSrc: L_SELENIUM,
+      skillName: "Selenium",
+    },
+    {
+      link: "https://www.chaijs.com/",
+      imgAltText: "ChaiJS",
+      imgSrc: L_CHAI,
+      skillName: "ChaiJS",
+    },
     {
       link: "https://junit.org/junit5/docs/current/user-guide/",
       imgAltText: "JUnit5",
       imgSrc: L_JUNIT5,
       skillName: "JUnit5",
-    }, 
-
+    },
   ],
 
   developmentPlatforms: [
@@ -111,61 +100,51 @@ export const skills = {
       imgSrc: L_NODE_JS,
       skillName: "Node.js",
     },
-
-    {
-      link: "https://www.java.com/en/",
-      imgAltText: "Java",
-      imgSrc: L_JAVA,
-      skillName: "Java",
-    },
-
-    {
-      link: "https://maven.apache.org/",
-      imgAltText: "Maven",
-      imgSrc: L_MAVEN,
-      skillName: "Maven",
-    },
-    
     {
       link: "https://www.javascript.com/",
       imgAltText: "JavaScript",
       imgSrc: L_JAVASCRIPT,
       skillName: "JavaScript",
     },
-
     {
       link: "https://www.npmjs.com/",
       imgAltText: "npm",
       imgSrc: L_NPM,
       skillName: "npm",
     },
-
+    {
+      link: "https://www.java.com/en/",
+      imgAltText: "Java",
+      imgSrc: L_JAVA,
+      skillName: "Java",
+    },
+    {
+      link: "https://maven.apache.org/",
+      imgAltText: "Maven",
+      imgSrc: L_MAVEN,
+      skillName: "Maven",
+    },
     {
       link: "https://www.mysql.com/",
       imgAltText: "MYSQL",
       imgSrc: L_MYSQL,
       skillName: "MYSQL",
-    }, 
-    
+    },
   ],
 
   projectManagementTools: [
-
     {
       link: "https://www.atlassian.com/software/jira",
       imgAltText: "Jira",
       imgSrc: L_JIRA,
       skillName: "Jira",
     },
-
     {
       link: "https://www.tutorialspoint.com/qc/qc_overview.htm",
       imgAltText: "Quality Center",
       imgSrc: L_QUALITY_CENTER,
       skillName: "Quality Center",
     },
-   
-   
   ],
 
   continuousIntegration: [
@@ -175,21 +154,18 @@ export const skills = {
       imgSrc: L_GITHUB_PAGES,
       skillName: "GitHub Pages",
     },
-
     {
       link: "https://git-scm.com/",
-      imgAltText: "GITLB",
+      imgAltText: "GITLAB",
       imgSrc: L_GITLAB,
       skillName: "GITLAB",
     },
-
     {
       link: "https://www.jenkins.io/",
       imgAltText: "Jenkins",
       imgSrc: L_JENKINS,
       skillName: "Jenkins",
     },
-   
   ],
 
   apiTesting: [
@@ -199,7 +175,6 @@ export const skills = {
       imgSrc: L_POSTMAN ,
       skillName: "Postman",
     },
-
     {
       link: "https://swagger.io/",
       imgAltText: "Swagger",
@@ -215,7 +190,6 @@ export const skills = {
       imgSrc: L_NETLIFY ,
       skillName: "Netlify",
     },
-
     {
       link: "https://firebase.google.com/",
       imgAltText: "Google Firebase",

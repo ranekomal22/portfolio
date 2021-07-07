@@ -46,7 +46,7 @@ const Skills = () => {
                 <Card className="focus mt-2 mb-2">
                     <Card.Body>
                         {/* Automation Frameworks */}
-                        <Card.Title className="text-center  card-title">Automation Frameworks</Card.Title>
+                        <Card.Title className="text-center  card-title">Test Automation Frameworks</Card.Title>
                         <hr />
                         <Card.Text className="card-text d-flex justify-content-center flex-row">
                             {skills.automation.map((skill, index) => (
@@ -69,15 +69,16 @@ const Skills = () => {
                 </Card>
             </Row>
             <Row>
-                <Card className="focus mt-2 mb-2">
+                <Card className="focus mt-2 mb-2 ">
                     <Card.Body>
                         {/* Frontend */}
                         <Card.Title className="text-center  card-title">Frontend</Card.Title>
                         <hr />
                         <Card.Text className="card-text d-flex justify-content-center flex-row">
+
                             {skills.frontend.map((skill, index) => (
-                                <Card className="p-0 w-25 position-center border-0">
-                                    <Card.Body className="p-1" >
+                                <Card className= "w-25 h-25 position-center border-0 ">
+                                    <Card.Body className="p-2">
                                         <span className="c-3" key={index}>
                                             <a className="card-text d-flex justify-content-center " href={skill.link} target="_blank" rel="noopener noreferrer">
                                                 <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image>
@@ -90,7 +91,9 @@ const Skills = () => {
                                     </Card.Text>
                                 </Card>
                             ))}
+
                         </Card.Text>
+
                     </Card.Body>
                 </Card>
             </Row>
@@ -208,8 +211,6 @@ const Skills = () => {
             </Row>
             </Row>
             </CardDeck>
-
-
         </div>
     );
 };
