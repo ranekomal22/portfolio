@@ -8,14 +8,6 @@ import L_Portfolio from "../../assets/img/projects/portfolio1.png";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 
-// skills
-import L_REACT from "../../assets/img/skills/react.svg";
-import L_NODE_JS from "../../assets/img/skills/nodejs.svg";
-import Image from "react-bootstrap/Image";
-import L_HTML5 from "../../assets/img/skills/html-5.svg";
-import L_CSS3 from "../../assets/img/skills/css3.svg";
-import L_BOOTSTRAP4 from "../../assets/img/skills/bootstrap-4.svg";
-
 import "./projects-timeline.styles.css";
 
 const TimeLine = () => {
