@@ -46,13 +46,14 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This React application calculates the amount of tip per table, and even per person if split option is chosen
+                        <strong>Description:</strong> This React application calculates the amount of tip per table and per person if split option is chosen
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
                           <li>Takes in the desired tip percentage</li>
                           <li>Includes the option to split the tip amount by number of people at the table</li>
-        
+                          <li>GitHub is used for version control and Netlify hosting platform for hosting the webapp</li>
+                          <li>Project is hosted on Netlify hosting platform and it is configured for continuous deliveries</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -69,7 +70,11 @@ const TimeLine = () => {
                               React
                             </span>
                           </li>
-                      
+                          <li>
+                              <span className="p-2">
+                                Netlify
+                              </span>
+                          </li>
                         </ul>
                       </Card.Body>
                     </Accordion.Collapse>
@@ -104,7 +109,7 @@ const TimeLine = () => {
 <ImageEvent
             date="16/09/2020"
             className="text-center"
-            text="WebDriverIO with Cucumber"
+            text="Automated tests with WebDriverIO and Cucumber"
             src={L_WebDriverIO}
             alt="WebDriverIO"
           >
@@ -122,12 +127,15 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This is an UI Automation Tests project of testing purchase workflow against http://automationpractice.com
+                        <strong>Description:</strong> This is an UI Automation Tests project of testing purchase workflow against http://automationpractice.com.
                                 These tests are developed in JS with WebDriverIO and Cucumber
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>It gives you a base foundation to set up running BDD tests in any environment that has Node.JS and Selenium2-Server-Standalone WebDriver.</li>
+                          <li>It gives us a base foundation framework for writing and executing BDD tests in any environment that has NodeJS, NPM and chrome browser.
+                          It start the Selenium2-Server-Standalone service and performs Browser actions.</li>
+                          <li> Report can be generated after tests completion so that results can be presented nicely.
+                          Allure report has been used for reporting in it.</li>
                           
                         </ul>
                         <hr />
@@ -145,7 +153,17 @@ const TimeLine = () => {
                               Node.js
                             </span>
                           </li>
-                          
+                          <li>
+                              <span className="p-2">
+                                WebDriverIO
+                              </span>
+                          </li>
+                          <li>
+                             <span className="p-2">
+                               Cucumber
+                             </span>
+                          </li>
+
                         </ul>
                       </Card.Body>
                     </Accordion.Collapse>
@@ -191,13 +209,15 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This is my first portfolio
+                        <strong>Description:</strong> This is my first portfolio website
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Send emails</li>
-                          <li>View my projects</li>
-                          <li>Fully funtional Administration panel</li>
+                          <li>Illustrate My profile</li>
+                          <li>Elaborate My work experience and projects</li>
+                          <li>Easily noticeable contact links and send email functionality</li>
+                          <li>Fully functional administration panel</li>
+                          <li>Live link to the webapp</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -249,7 +269,7 @@ const TimeLine = () => {
                   SEE LIVE
                 </UrlButton>
                 <UrlButton
-                  href="https://github.com/ranekomal22/react-tip-calculator"
+                  href="https://github.com/ranekomal22/portfolio"
                   target="_blank"
                 >
                   SOURCE CODE
