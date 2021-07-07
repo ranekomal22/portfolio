@@ -16,7 +16,7 @@ const Skills = () => {
                 <Card className="focus mt-2 mb-2 ">
                     <Card.Body>
                         {/* Development Platforms*/}
-                        <Card.Title className="text-center  card-title">Development Platforms</Card.Title>
+                        <Card.Title id="card-development" className="text-center  card-title">Development Platforms</Card.Title>
                         <hr />
                         <Card.Text className="card-text d-flex justify-content-center flex-row">
                         
@@ -24,7 +24,7 @@ const Skills = () => {
                                 <Card className= "w-25 h-25 position-center border-0 ">
                                     <Card.Body className="p-2">
                                         <span className="c-3" key={index}>
-                                            <a className="card-text d-flex justify-content-center " href={skill.link} target="_blank" rel="noopener noreferrer">
+                                            <a id={"skill-"+skill.skillName} className="card-text d-flex justify-content-center " href={skill.link} target="_blank" rel="noopener noreferrer">
                                                 <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image>
                                             </a>
                                         </span>
@@ -46,14 +46,14 @@ const Skills = () => {
                 <Card className="focus mt-2 mb-2">
                     <Card.Body>
                         {/* Automation Frameworks */}
-                        <Card.Title className="text-center  card-title">Test Automation Frameworks</Card.Title>
+                        <Card.Title id="card-automation" className="text-center  card-title">Test Automation Frameworks</Card.Title>
                         <hr />
                         <Card.Text className="card-text d-flex justify-content-center flex-row">
                             {skills.automation.map((skill, index) => (
                                 <Card className="p-0 w-25 position-center border-0">
                                     <Card.Body className="p-1" >
                                         <span className="c-3" key={index}>
-                                            <a className="card-text d-flex justify-content-center " href={skill.link} target="_blank" rel="noopener noreferrer">
+                                            <a id={"skill-"+skill.skillName} className="card-text d-flex justify-content-center " href={skill.link} target="_blank" rel="noopener noreferrer">
                                                 <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image>
                                             </a>
                                         </span>
@@ -72,7 +72,7 @@ const Skills = () => {
                 <Card className="focus mt-2 mb-2 ">
                     <Card.Body>
                         {/* Frontend */}
-                        <Card.Title className="text-center  card-title">Frontend</Card.Title>
+                        <Card.Title id="card-frontend" className="text-center  card-title">Frontend</Card.Title>
                         <hr />
                         <Card.Text className="card-text d-flex justify-content-center flex-row">
 
@@ -80,7 +80,7 @@ const Skills = () => {
                                 <Card className= "w-25 h-25 position-center border-0 ">
                                     <Card.Body className="p-2">
                                         <span className="c-3" key={index}>
-                                            <a className="card-text d-flex justify-content-center " href={skill.link} target="_blank" rel="noopener noreferrer">
+                                            <a id={"skill-"+skill.skillName} className="card-text d-flex justify-content-center " href={skill.link} target="_blank" rel="noopener noreferrer">
                                                 <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image>
                                             </a>
                                         </span>
@@ -102,14 +102,14 @@ const Skills = () => {
                     <Card className="focus mt-2 mb-2">
                         <Card.Body>
                             {/* Project Management Tools */}
-                            <Card.Title className="text-center  card-title">Project Management Tools</Card.Title>
+                            <Card.Title id="card-management" className="text-center  card-title">Project Management Tools</Card.Title>
                             <hr />
                             <Card.Text className="card-text d-flex justify-content-center flex-row">
                                 {skills.projectManagementTools.map((skill, index) => (
                                     <Card className="p-0 w-25 h-25 position-center border-0">
                                         <Card.Body className="p-1">
                                             <span className="c-3" key={index}>
-                                                <a className="card-text d-flex justify-content-center " href={skill.link} target="_blank" rel="noopener noreferrer">
+                                                <a id={"skill-"+skill.skillName} className="card-text d-flex justify-content-center " href={skill.link} target="_blank" rel="noopener noreferrer">
                                                     <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image>
                                                 </a>
                                             </span>
@@ -129,14 +129,14 @@ const Skills = () => {
                     <Card className="focus mt-2 mb-2">
                         <Card.Body>
                             {/* Continuous Integration */}
-                            <Card.Title className="text-center  card-title">Continuous Integration</Card.Title>
+                            <Card.Title id="card-ci"className="text-center  card-title">Continuous Integration</Card.Title>
                             <hr />
                             <Card.Text className="card-text d-flex justify-content-center flex-row">
                                 {skills.continuousIntegration.map((skill, index) => (
                                     <Card className="p-0 w-25 h-25 position-center border-0">
                                         <Card.Body className="p-1" >
                                             <span className="c-3" key={index}>
-                                                <a className="card-text d-flex justify-content-center " href={skill.link} target="_blank" rel="noopener noreferrer">
+                                                <a id={"skill-"+skill.skillName} className="card-text d-flex justify-content-center " href={skill.link} target="_blank" rel="noopener noreferrer">
                                                     <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image>
                                                 </a>
                                             </span>
@@ -158,14 +158,14 @@ const Skills = () => {
                     <Card className="focus mt-2 mb-2">
                         <Card.Body>
                             {/* API Testing */}
-                            <Card.Title className="text-center  card-title">API Testing</Card.Title>
+                            <Card.Title id="card-api-testing" className="text-center  card-title">API Testing</Card.Title>
                             <hr />
                             <Card.Text className="card-text d-flex justify-content-center flex-row">
                                 {skills.apiTesting.map((skill, index) => (
                                     <Card className="p-0 w-25 h-25 position-center border-0">
                                         <Card.Body className="p-1">
                                             <span className="c-3" key={index}>
-                                                <a className="card-text d-flex justify-content-center " href={skill.link} target="_blank" rel="noopener noreferrer">
+                                                <a id={"skill-"+skill.skillName} className="card-text d-flex justify-content-center " href={skill.link} target="_blank" rel="noopener noreferrer">
                                                     <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image>
                                                 </a>
                                             </span>
@@ -185,14 +185,14 @@ const Skills = () => {
                     <Card className="focus mt-2 mb-2">
                         <Card.Body>
                             {/* Hosting Platforms */}
-                            <Card.Title className="text-center  card-title">Hosting Platforms</Card.Title>
+                            <Card.Title id="card-hosting" className="text-center  card-title">Hosting Platforms</Card.Title>
                             <hr />
                             <Card.Text className="card-text d-flex justify-content-center flex-row">
                                 {skills.hostingPlatforms.map((skill, index) => (
                                     <Card className="p-0 w-25 h-25 position-center border-0">
                                         <Card.Body className="p-1" >
                                             <span className="c-3" key={index}>
-                                                <a className="card-text d-flex justify-content-center " href={skill.link} target="_blank" rel="noopener noreferrer">
+                                                <a id={"skill-"+skill.skillName} className="card-text d-flex justify-content-center " href={skill.link} target="_blank" rel="noopener noreferrer">
                                                     <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image>
                                                 </a>
                                             </span>

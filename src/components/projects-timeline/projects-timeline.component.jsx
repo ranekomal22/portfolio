@@ -16,8 +16,8 @@ const TimeLine = () => {
       <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
       <Timeline>
         <Events>
-        {/* Project: tip-calculator*/}
-        <ImageEvent
+          {/* Project: tip-calculator*/}
+          <ImageEvent
             date="01/08/2020"
             className="text-center"
             text="React Tip Calculator"
@@ -25,7 +25,7 @@ const TimeLine = () => {
             alt="React Tip calculator"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
-              <div>
+              <div id="tip-calc-details">
                 <Accordion>
                   <Card>
                     <Accordion.Toggle
@@ -71,7 +71,7 @@ const TimeLine = () => {
                   </Card>
                 </Accordion>
               </div>
-              <div className="d-flex justify-content-between flex-nowrap text-center">
+              <div id="tip-calc-btn" className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
                   href="https://kr-tipcalculator-a8969f.netlify.app/"
                   target="_blank"
@@ -94,9 +94,8 @@ const TimeLine = () => {
             </div>
           </ImageEvent>
 
-
-{/* Project: WebDriverIO with Cucumber */}
-<ImageEvent
+          {/* Project: WebDriverIO with Cucumber */}
+          <ImageEvent
             date="09/16/2020"
             className="text-center"
             text="Automated tests with WebDriverIO and Cucumber"
@@ -104,7 +103,7 @@ const TimeLine = () => {
             alt="WebDriverIO"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
-              <div>
+              <div id="wdio-details">
                 <Accordion>
                   <Card>
                     <Accordion.Toggle
@@ -154,7 +153,7 @@ const TimeLine = () => {
                   </Card>
                 </Accordion>
               </div>
-              <div className="d-flex justify-content-between flex-nowrap text-center">
+              <div id="wdio-btn" className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
                   href="https://github.com/ranekomal22/wdio_example"
                   target="_blank"
@@ -180,7 +179,7 @@ const TimeLine = () => {
             alt="Portfolio"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
-              <div>
+              <div id="portfolio-details">
                 <Accordion>
                   <Card>
                     <Accordion.Toggle
@@ -227,7 +226,7 @@ const TimeLine = () => {
                   </Card>
                 </Accordion>
               </div>
-              <div className="d-flex justify-content-center flex-nowrap text-center">
+              <div id="portfolio-btn" className="d-flex justify-content-center flex-nowrap text-center">
                 <UrlButton
                   href="https://github.com/ranekomal22/portfolio"
                   target="_blank"

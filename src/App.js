@@ -7,6 +7,7 @@ import Skills from "./pages/skills/skills.component";
 import Container from "react-bootstrap/Container";
 import TimeLine from "./components/projects-timeline/projects-timeline.component";
 import Experience from "./pages/experience/experience.component";
+import Education from "./pages/education/education.component";
 import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
 import ContactForm from "./pages/contact-form/contact-form.component";
@@ -56,6 +57,15 @@ const App = () => {
             <hr />
 
             <Experience />
+          </Fade>
+        </Container>
+      </div>
+      <div>
+        <Container className="container-box rounded">
+          <Fade duration={500}>
+            <hr />
+
+            <Education />
           </Fade>
         </Container>
       </div>
