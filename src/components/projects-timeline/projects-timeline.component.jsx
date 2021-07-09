@@ -85,7 +85,7 @@ const TimeLine = () => {
                   SOURCE CODE
                 </UrlButton>
                 <UrlButton
-                  href="https://drive.google.com/file/d/14mDuZ6SIEOC0X8m73-rFI2GZlkYkbiq3/view?usp=sharing"
+                  href="https://youtu.be/TEMpq-B0bDM"
                   target="_blank"
                 >
                   WATCH VIDEO
@@ -161,7 +161,7 @@ const TimeLine = () => {
                   SOURCE CODE
                 </UrlButton>
                 <UrlButton
-                  href="https://drive.google.com/file/d/1YSXNhwG57BgBRRzlhh8xZ8BTJr77JJk6/view?usp=sharing"
+                  href="https://youtu.be/VMl83hwnKLc"
                   target="_blank"
                 >
                   WATCH VIDEO
