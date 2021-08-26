@@ -25,12 +25,12 @@ const About = () => {
                 <br />I have recently graduated with Master’s degree in Information Systems from City University of New York Brooklyn College.
                 <br />
                 <br />
-                I have two years of professional work experience as a Test Engineer in Hexaware Technologies and I worked on Air Canada Airline project during that tenure.
+                I have professional work experience in multinational companies like Hexaware Technologies. I worked as a Software Engineer in Test on Air Canada Airline project during that tenure.
                 My primary responsibilities were to develop Test Strategies, Test Cases, write Automated Test scripts and perform mobile application testing.
                 While working with Air Canada and their clients, my goal has always been to thrive for delivering best quality software and best user experience.
                 <br />
                 <br />
-                I love learning new technologies and understand the problems that they solve.
+                I love learning new technologies and understand how they solve the problems.
                 I am always curious to find out how can I leverage that to develop quality products with faster deliveries.
                 <br /> <br />
                 <Col className="d-flex justify-content-center flex-wrap">

@@ -56,7 +56,7 @@ const App = () => {
           <Fade duration={500}>
             <hr />
 
-            <Experience />
+            <Education />
           </Fade>
         </Container>
       </div>
@@ -65,7 +65,7 @@ const App = () => {
           <Fade duration={500}>
             <hr />
 
-            <Education />
+            <Experience />
           </Fade>
         </Container>
       </div>
