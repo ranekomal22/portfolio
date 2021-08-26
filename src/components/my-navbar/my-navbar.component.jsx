@@ -25,8 +25,8 @@ const MyNavbar = () => {
               <Nav.Link id="nav-home" href="#home">Home</Nav.Link>
               <Nav.Link id="nav-about" href="#about">About</Nav.Link>
               <Nav.Link id="nav-skills" href="#skills">Skills</Nav.Link>
-              <Nav.Link id="nav-experience" href="#experience">Experience</Nav.Link>
               <Nav.Link id="nav-education" href="#education">Education</Nav.Link>
+              <Nav.Link id="nav-experience" href="#experience">Experience</Nav.Link>
               <Nav.Link id="nav-projects" href="#projects">Projects</Nav.Link>
               <Nav.Link id="nav-contact" href="#contact">Contact</Nav.Link>
             </Nav>
